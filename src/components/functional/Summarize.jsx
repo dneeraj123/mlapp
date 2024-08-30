@@ -34,8 +34,8 @@ const Summarize = () => {
     return (
         <div className='flex flex-col justify-center items-center gap-10 w-full'>
             <form onSubmit={handleSummarize} className='flex flex-col gap-10 w-[90%] justify-center items-center'>
-                <Textarea placeholder='Text here...' className='h-[200px] w-full' value={text} onChange={(e) => setText(e.target.value)} />
-                <Button type='submit' className='w-20 p-2'>Summarize</Button>
+                <Textarea placeholder='Please enter text here for getting the summary' className='h-[200px] w-full' value={text} onChange={(e) => setText(e.target.value)} />
+                <Button variant='default' type='submit'>Summarize</Button>
             </form>
 
             <div>Result :</div>
