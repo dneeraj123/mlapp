@@ -17,9 +17,10 @@ const Summarize = () => {
             "https://api-inference.huggingface.co/models/facebook/bart-large-cnn",
             {
                 headers: {
-                    Authorization: "Bearer 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",
+                    Authorization: "Bearer xxxx",
 				    "Content-Type": "application/json",
-                },
+                }, 
+                
                 method: "POST",
                 body: JSON.stringify(data),
             }
